@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD6AAE86-3E12-4F25-BAD1-93F3940D9B1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DWD Seewetter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE5061E58761AB2CE16996BB6BEF0CBDB8B2F716</key>
+		<string>https://github.com/tomaszbrue/dwd-seewetter-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/DWD Seewetter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE5061E58761AB2CE16996BB6BEF0CBDB8B2F716</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tomaszbrue/dwd-seewetter-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE5061E58761AB2CE16996BB6BEF0CBDB8B2F716</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE5061E58761AB2CE16996BB6BEF0CBDB8B2F716</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dwd-seewetter-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
