@@ -1,29 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Neue App</title>
+	<head>
+		<meta charset="utf-8">
+		<title>DWD Seewetter</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 
-    <!-- Sets initial viewport load and disables zooming  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/ratchet.min.css">
+		<link rel="stylesheet" href="css/ratchet-theme-ios.min.css">
+		<style>
 
-    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="HandheldFriendly" content="True">
+			.dwd-header {
+				background-color:#3498db;
+			}
 
-    <link href="css/ratchet.css" rel="stylesheet">
-    <link href="css/ratchet-theme-ios.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/junior.css" rel="stylesheet">
-    
-    <script src="cordova.js"></script>
-    <script data-main="js/main" src="js/libs/require.js"></script>
+			.dwd-header h1 {
+				color:white !important;
+				font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+			}
 
-</head>
-<body>
-    <div id="app-container">
-        <div id="app-main"></div>
-    </div>
-</body>
+			.dwd-header .btn {
+				color:white !important;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header class="bar bar-nav dwd-header">
+			<h1 class="title">DWD Seewetter</h1>
+		</header>
+
+		<div class="content">
+
+			<ul class="table-view">
+				<li class="table-view-cell">
+					<a class="navigate-right" href="http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/KU/KUPK/Hobbymet/Wetterkarten/Analysekarten/Analysekarten__Default__Boden__Europa__Luftdruck__Bild,property=default.png" target="_blank">
+						Europa Übersicht
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Bodenanalysekarte Europa
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Nordsee
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Ostsee
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Ostatlantik
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Nordatlantik
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Mittelmeer-West
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Mittelmeer-Ost
+					</a>
+				</li>
+				<li class="table-view-cell">
+					<a class="navigate-right">
+						Kurzfrist-Prognosekarte
+					</a>
+				</li>
+			</ul>
+
+
+			<div class="content-padded">
+				<p style="text-align:center">
+					Alle Karten &copy; 2015 Deutscher Wetterdienst
+				</p>
+			</div>
+		</div>
+
+		<script src="js/ratchet.js"></script>
+	</body>
 </html>

@@ -357,33 +357,6 @@ p {
   color: #777;
 }
 
-.label {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.25;
-  color: #333;
-  text-align: center;
-  vertical-align: top;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-
-.label.info {
-  color: #fff;
-  background-color: #428bca;
-  border: 1px solid #428bca;
-}
-.label.warning {
-  color: #fff;
-  background-color: #d9534f;
-  border: 1px solid #d9534f;
-}
-
 .btn {
   position: relative;
   display: inline-block;
